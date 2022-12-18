@@ -1,0 +1,24 @@
+#app_container {
+  display: grid;
+  grid-template-rows: 24vh 76vh;
+}
+
+Header {
+  grid-row: 1;
+  grid-column: 1;
+}
+
+.device {
+  grid-row: 2;
+  grid-column: 1;
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 0.8rem;
+  line-height: 1rem;
+  color: #708CA2;
+  text-overflow: ellipsis;
+  overflow-x: hidden;
+  white-space:  nowrap;
+}

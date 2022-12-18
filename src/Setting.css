@@ -1,0 +1,61 @@
+#setting_container {
+    display: flex;
+}
+
+#input_container {
+    width: 13.5vw+1px;
+    padding: 4px 0px 0px 7px;
+    display: grid;
+    grid-template-columns: 13.5vw 1px;
+    grid-template-rows: 1.5rem 1.5rem;
+}
+
+#type {
+    grid-row: 1;
+    grid-column: 1;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1rem;
+    line-height: 1.2rem;
+    color: #708CA2;
+}
+
+#setting_separator {
+    grid-row: 1;
+    grid-column: 2;
+
+    width: 1px;
+    height: 8vh;
+
+    background: #577084;
+    transform: matrix(-1, 0, 0, 1, 0, 0);
+}
+
+#output_container {
+    display: flex;
+    width: 28vw;
+}
+
+#out_button_container {
+    display: flex;
+    padding: 4px 0 0 4px;
+}
+
+#out_button {
+    width: 3vw;
+    height: 8vh;
+    margin: 0px 4px;
+    color: #fff;
+    background: #3C5365;
+    border: 1px solid #5c6E78;
+}
+
+#out_text_container {
+    width: 16vw;
+    padding: 4px 9px;
+    display: flex;
+    flex-direction: column;
+
+}

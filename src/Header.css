@@ -1,0 +1,12 @@
+#header{
+    background: #36495A;
+}
+
+#logo {
+    padding: 12px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.2rem;
+    line-height: 1.4rem;
+}
